@@ -1,7 +1,16 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   
+</head>
+<body>
    <header class="header">
       <div class="header__logo">
-        <img src="../assets/img/img/dc-logo.png" alt="">
+        <img src="{{asset('img/dc-logo.png')}}" alt="logo">
       </div>
       <nav class="header__nav">
         <ul class="header__list"> 
@@ -17,6 +26,9 @@
           <li><a href="#"></a>SHOP</li>
         </ul>
       </nav>
-      
+      <h1 class="text-3xl font-bold underline">
+         Hello world!
+       </h1>
    </header>
-</header>
+</body>
+</html>
