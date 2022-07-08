@@ -1,10 +1,9 @@
 @extends('layout.base')
 
   @section('page-title')
-      Home page
+      comic
   @endsection
  
   @section('page-content')
-    @include('partials.main')
-    
+    @include('partials.infoComic')
   @endsection

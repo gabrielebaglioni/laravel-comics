@@ -7,7 +7,7 @@
           @foreach ($comics as $comic)
             <div class="px-6 py-4 w-1/6 card">
                <img src="{{asset($comic["thumb"])}}" alt="{{$comic["series"]}}">
-               <small class="text-white mt-2 uppercase">{{$comic["series"]}}</small>
+               <small class="text-white pt-4 uppercase">{{$comic["series"]}}</small>
             </div>
            @endforeach  
          </div>
