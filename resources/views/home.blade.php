@@ -3,6 +3,7 @@
   @section('page-title')
       Home page
   @endsection
+ 
   @section('page-content')
-      Contenuto
+    @include('partials.main')
   @endsection
