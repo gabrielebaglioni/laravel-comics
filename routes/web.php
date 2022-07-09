@@ -16,14 +16,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $comics = config('comics');
     return view('home', compact('comics'));
-});
- route::get('comic/{id}', function($id){
+})->name('home');
+ Route::get('comic/{id}', function($id){
     $comics = config('comics');
    
     $comic = $comics[$id];
     return view('comic', compact('comic'));
 
- })->where('id', '[0-11]+')->name('comic');
+ })->name('comic');
+
+
+
+
+
+
 // Route::get('/', function () {
 //     $comics = config('comics');
 //     return view('home', compact('comics'));
