@@ -9,7 +9,7 @@
    
 </head>
 <body>
-   <header class="header flex h-1/4 justify-evenly items-center">
+   <header class="header flex h-1/4 justify-evenly items-center p-8">
       <div class="header__logo">
         <img src="{{asset('img/dc-logo.png')}}" alt="logo">
       </div>
